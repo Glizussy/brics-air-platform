@@ -1,0 +1,57 @@
+[
+  {
+    "lat": 28.6139,
+    "lng": 77.209,
+    "city": "Delhi",
+    "wind_speed_kmh": 4.7,
+    "wind_direction_deg": 279.0,
+    "wind_direction_label": "W",
+    "temperature_c": 32.1,
+    "humidity_pct": 56.0,
+    "timestamp": "2026-09-18T09:08:37.147658Z"
+  },
+  {
+    "lat": 19.076,
+    "lng": 72.8777,
+    "city": "Mumbai",
+    "wind_speed_kmh": 11.6,
+    "wind_direction_deg": 262.0,
+    "wind_direction_label": "W",
+    "temperature_c": 28.9,
+    "humidity_pct": 73.0,
+    "timestamp": "2026-09-18T09:08:37.269848Z"
+  },
+  {
+    "lat": -23.5505,
+    "lng": -46.6333,
+    "city": "S\u00e3o Paulo",
+    "wind_speed_kmh": 9.2,
+    "wind_direction_deg": 87.0,
+    "wind_direction_label": "E",
+    "temperature_c": 13.7,
+    "humidity_pct": 93.0,
+    "timestamp": "2026-09-18T09:08:37.390575Z"
+  },
+  {
+    "lat": 39.9042,
+    "lng": 116.4074,
+    "city": "Beijing",
+    "wind_speed_kmh": 8.9,
+    "wind_direction_deg": 153.0,
+    "wind_direction_label": "SE",
+    "temperature_c": 27.9,
+    "humidity_pct": 45.0,
+    "timestamp": "2026-09-18T09:08:37.520283Z"
+  },
+  {
+    "lat": -26.2041,
+    "lng": 28.0473,
+    "city": "Johannesburg",
+    "wind_speed_kmh": 18.4,
+    "wind_direction_deg": 39.0,
+    "wind_direction_label": "NE",
+    "temperature_c": 17.9,
+    "humidity_pct": 58.0,
+    "timestamp": "2026-09-18T09:08:37.643841Z"
+  }
+]

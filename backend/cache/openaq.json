@@ -1,0 +1,67 @@
+[
+  {
+    "city": "Delhi",
+    "country": "India",
+    "lat": 28.6139,
+    "lng": 77.209,
+    "aqi": 287,
+    "pm25": 237.0,
+    "pm10": 342.0,
+    "no2": 68.0,
+    "so2": 22.0,
+    "source": "mock",
+    "timestamp": "2026-09-18T09:08:12.149405Z"
+  },
+  {
+    "city": "Mumbai",
+    "country": "India",
+    "lat": 19.076,
+    "lng": 72.8777,
+    "aqi": 132,
+    "pm25": 48.5,
+    "pm10": 96.0,
+    "no2": 34.0,
+    "so2": 14.0,
+    "source": "mock",
+    "timestamp": "2026-09-18T09:08:12.149405Z"
+  },
+  {
+    "city": "S\u00e3o Paulo",
+    "country": "Brazil",
+    "lat": -23.5505,
+    "lng": -46.6333,
+    "aqi": 68,
+    "pm25": 19.2,
+    "pm10": 34.0,
+    "no2": 21.0,
+    "so2": 6.0,
+    "source": "mock",
+    "timestamp": "2026-09-18T09:08:12.149405Z"
+  },
+  {
+    "city": "Beijing",
+    "country": "China",
+    "lat": 39.9042,
+    "lng": 116.4074,
+    "aqi": 156,
+    "pm25": 68.4,
+    "pm10": 118.0,
+    "no2": 52.0,
+    "so2": 18.0,
+    "source": "mock",
+    "timestamp": "2026-09-18T09:08:12.149405Z"
+  },
+  {
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "lat": -26.2041,
+    "lng": 28.0473,
+    "aqi": 54,
+    "pm25": 12.8,
+    "pm10": 28.0,
+    "no2": 16.0,
+    "so2": 8.0,
+    "source": "mock",
+    "timestamp": "2026-09-18T09:08:12.149405Z"
+  }
+]
