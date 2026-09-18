@@ -45,3 +45,6 @@
 - Verified live: South Asia bbox 505 hotspots, South America bbox 11,189 hotspots; `fetch_fires(limit=300)` returns FRP-sorted VIIRS rows.
 - `backend/cache/firms.json` refreshed from 12-row fallback to 300-row live snapshot (56K). `GET /api/fires` serves live data.
 - Still missing: `OPENAQ_API_KEY`, `WAQI_TOKEN`, `GEMINI_API_KEY` (OpenAQ/WAQI fallbacks active, Gemini routes on rule-based stand-ins).
+
+### 18 Sep 2026 — README added + pushed
+- `README.md`: quickstart, endpoint table, key sources, structure, team. Committed + pushed to `origin/main`.
