@@ -312,6 +312,26 @@ def rule_crossborder(
                 f"from {sp_m.wind_direction_label}."
             ),
         ))
+    # India -> Pakistan corridor (Indo-Gangetic Plain): crop-burning east of the
+    # border + easterly flow carries smoke toward Lahore. Demo step 3.
+    lahore = (31.5497, 74.3436)
+    border_fires = [f for f in fires if 30.0 <= f.lat <= 33.0 and 73.0 <= f.lng <= 76.5]
+    delhi_m = next((m for m in meteos if m.city == "Delhi"), None)
+    blowing_west = delhi_m is not None and delhi_m.wind_direction_label in ("E", "NE", "SE", "S")
+    if border_fires and delhi_m and blowing_west:
+        dist = _haversine_km(31.10, 75.40, *lahore)
+        events.append(GeminiCrossBorderEvent(
+            source_country="India", source_city="Punjab/Amritsar border belt",
+            source_cause="crop burning", affected_city="Lahore",
+            affected_country="Pakistan",
+            transport_direction=f"{delhi_m.wind_direction_label} → W",
+            distance_km=round(dist, 1), severity="high",
+            evidence_summary=(
+                f"{len(border_fires)} VIIRS hotspots in the Punjab border belt (max FRP "
+                f"{max(f.frp for f in border_fires):.1f} MW), Delhi wind {delhi_m.wind_speed_kmh} km/h "
+                f"from {delhi_m.wind_direction_label} transporting smoke northwest toward Lahore."
+            ),
+        ))
     return events
 
 

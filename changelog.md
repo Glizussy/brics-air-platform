@@ -48,3 +48,9 @@
 
 ### 18 Sep 2026 — README added + pushed
 - `README.md`: quickstart, endpoint table, key sources, structure, team. Committed + pushed to `origin/main`.
+
+### 19 Sep 2026 — Day 2: demo readiness + team tooling
+- `rule_crossborder()` in `main.py`: added **India → Pakistan corridor** — Punjab/Amritsar border-belt fires + easterly flow now emit a Lahore cross-border event (Indo-Gangetic Plain, demo step 3). Existing Punjab→Delhi + Amazon→São Paulo events unchanged.
+- `scripts/refresh_cache.py`: one command to re-fetch all data sources. Skips sources whose key is missing (never clobbers committed cache), always refreshes no-key sources (meteo, sensors).
+- `scripts/smoke_test.py`: 15 checks on every endpoint + shapes + 404 case (in-process `TestClient`); `--base-url` flag for testing the deployed Render backend later.
+- Status: OpenAQ + WAQI keys still pending (user couldn't reach the signup/token pages); both modules sit in fallback mode — FIRMS, meteo, sensors are LIVE so nothing blocks Sarthak/Anoushka.

@@ -71,3 +71,11 @@ frontend/              # Anoushka — Streamlit
 - Anoushka — frontend
 
 See `work-division.md` (plan) + `changelog.md` (progress).
+
+## Scripts
+
+```bash
+python scripts/refresh_cache.py            # refresh backend/cache/*.json
+python scripts/smoke_test.py               # verify all endpoints locally
+python scripts/smoke_test.py --base-url https://backend.onrender.com  # after deploy
+```
